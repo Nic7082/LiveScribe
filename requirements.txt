@@ -1,0 +1,59 @@
+# --- Core Deep Learning & Acceleration ---
+
+# Note: Install the CUDA-enabled builds matching your GPU driver:
+
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+torch>=2.1.0
+
+torchaudio>=2.1.0
+
+onnxruntime-gpu>=1.16.0
+
+
+
+# --- Audio I/O & Digital Signal Processing (DSP) ---
+
+librosa>=0.10.1
+
+scipy>=1.11.0
+
+numpy>=1.24.0,<2.0.0
+
+sounddevice>=0.4.6
+
+soundfile>=0.12.1
+
+noisereduce>=3.0.0
+
+webrtcvad-wheels>=2.0.10
+
+
+
+# --- Automatic Speech Recognition (ASR) ---
+
+faster-whisper>=1.0.0
+
+transformers>=4.36.0
+
+
+
+# --- Speaker Encoding & Neural Voice Replication ---
+
+speechbrain>=1.0.0
+
+TTS>=0.22.0
+
+huggingface-hub>=0.20.0
+
+
+
+# --- Evaluation, Configuration & Testing ---
+
+jiwer>=3.0.3          # Word Error Rate (WER) and Character Error Rate (CER) metrics
+
+pyyaml>=6.0.1         # Pipeline configuration parsing
+
+pytest>=7.4.0         # Unit and integration testing
+
+tqdm>=4.66.0
