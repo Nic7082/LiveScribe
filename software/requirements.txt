@@ -1,0 +1,10 @@
+numpy
+scipy
+librosa
+pyserial
+soundfile
+torch
+torchaudio
+openai-whisper
+matplotlib
+pytest
