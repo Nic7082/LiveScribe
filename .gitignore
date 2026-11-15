@@ -1,0 +1,26 @@
+# Build artifacts
+build/
+**/build/
+*.uf2
+*.elf
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+
+# KiCad generated files
+*-backups/
+*.lck
+
+# Large recorded audio
+data/**/*.wav
+outputs/**/*.wav
+

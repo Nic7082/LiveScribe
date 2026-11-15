@@ -1,0 +1,15 @@
+instructions: |
+  LiveScribe streams little-endian 16-bit PCM from an RP2040 over USB CDC to
+  Python host software for DSP and speech recognition. Keep firmware packet
+  framing and the host parser compatible, and keep serial I/O, DSP, ASR, and
+  visualization decoupled through thread-safe queues.
+
+scripts:
+  - name: Run Python tests
+    command: python -m pytest software/tests
+  - name: Compile Python modules
+    command: python -m compileall -q software/src software/tests simulations/scripts
+  - name: Configure Pico firmware
+    command: cmake -S firmware -B firmware/build
+  - name: Build Pico firmware
+    command: cmake --build firmware/build
