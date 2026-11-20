@@ -3,8 +3,8 @@ audio:
   sample_rate: 16000          # 16 kHz mono capture required for ASR/TTS models
   chunk_size: 512             # Audio buffer chunk size for streaming
   channels: 1                 # Mono recording
-  bandpass_low: 80            # Lower cutoff frequency (Hz)
-  bandpass_high: 7500         # Upper cutoff frequency (Hz)
+  bandpass_low: 118.63        # Lower cutoff frequency (Hz)
+  bandpass_high: 496.35       # Upper cutoff frequency (Hz)
   vad_aggressiveness: 3       # WebRTC VAD aggressiveness level (0-3)
 
 # --- Automatic Speech Recognition (ASR) ---
