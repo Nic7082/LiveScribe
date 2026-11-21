@@ -1,1 +1,9 @@
-Designator,Component,Value,Footprint,Manufacturer,MPN,Quantity,Notes
+Component,Value,Quantity,Notes
+R1,180000 ohms,1,lowpass resistor value
+R2,10000 ohms,1,lowpass resistor value
+R3,56000 ohms,1,highpass resistor value
+R4,27000 ohms,1,highpass resistor value
+C1,1e-08 F,1,lowpass capacitor value 
+C2,1e-07 F,1,lowpass capacitor value
+C3,6.8e-09 F,1,highpass capacitor value
+C4,1e-08 F,1,highpass capacitor value
